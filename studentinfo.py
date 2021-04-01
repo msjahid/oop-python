@@ -19,7 +19,7 @@ class Student:
 
     def getCgpa(self):
         cgpa =  self.__totalCGPA / self.__totalCredits
-        if(self.__totalCredits == 0.0 and self.__totalCGPA == 0):
+        if(self.__totalCredits == 0.0):
             return 0.0
         return cgpa
 
